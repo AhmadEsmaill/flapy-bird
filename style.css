@@ -1,0 +1,49 @@
+#game-container {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  #background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    z-index: -1;
+  }
+  #bird {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /* background-color: yellow; */
+    background-image: url('72e32b423e9938e3e79a645757be8018.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 30%;
+    left: 50px;
+    transform: translate(0, -50%);
+  }
+  
+  #pipe {
+    position: absolute;
+    width: 80px;
+    height: 250px;
+    bottom: 0;
+    background-image: url('abaa728a0777806b4c52a373a192714b.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    left: 400px;
+  }
+  #score {
+    position: absolute;
+    top: 10px;
+    right: 40%;
+    font-size: 24px;
+    color: rgb(255, 123, 0);
+    font-weight: bold;
+  }
